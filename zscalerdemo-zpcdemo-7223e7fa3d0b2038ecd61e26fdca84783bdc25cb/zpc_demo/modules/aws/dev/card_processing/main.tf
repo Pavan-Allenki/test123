@@ -34,7 +34,7 @@ resource "aws_instance" "card-processing-vm" {
 
 ##### IAM role to assign to EC2 instance(s), to demonstrate CIEM capabilities:
 
-resource "aws_iam_role" "machine-storage-access" {
+resource "aws_iam_role" "machine-storage-access12" {
   name = "machine-storage-access"
 
   assume_role_policy = <<EOF
