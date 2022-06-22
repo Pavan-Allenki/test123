@@ -22,7 +22,7 @@ provider "aws" {
 
 data "aws_region" "current" {}
 
-resource "aws_instance" "card-processing-vm" {
+resource "aws_instance" "card-processing-vm123" {
   ami           = "ami-0ca285d4c2cda3300"
   instance_type = "t2.nano"
 
