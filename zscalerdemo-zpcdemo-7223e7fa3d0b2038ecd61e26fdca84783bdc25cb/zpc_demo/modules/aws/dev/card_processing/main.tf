@@ -86,7 +86,7 @@ EOF
 }
 
 
-resource "aws_instance" "cardprocessing-frontend" {
+resource "aws_instance" "cardprocessing-frontend123" {
   ami = "ami-0ca285d4c2cda3300"
   instance_type = "t2.micro"
   iam_instance_profile = "${aws_iam_instance_profile.storage-access-profile.name}"
